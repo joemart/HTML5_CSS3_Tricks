@@ -64,3 +64,25 @@
 	color:white;
 	margin:10px;
 }
+
+.c{
+	background-color:rgb(250,250,250);
+	margin:10px;
+	height: 500px;
+
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	/*grid-template-rows: auto;*/
+	justify-content: space-around;
+	align-content: space-evenly;
+}
+
+.c_i{
+	background:rgb(36,130,39);
+	text-align:center;
+
+	width:70px;
+	margin:10px;
+	color:white;
+
+}
